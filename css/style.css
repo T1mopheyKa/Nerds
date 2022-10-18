@@ -1350,12 +1350,3 @@ input[type="checkbox"]:checked+.checkbox__label::after {
 }
 
 
-/* 404 */
-
-.found__description {
-    font-size: 100px;
-    line-height: 1;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
