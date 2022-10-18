@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
@@ -13,7 +12,7 @@
 </head>
 
 <body class="page">
-     <header class="page-header page__header">
+    <header class="page-header page__header">
 
         <nav class="page-header__navigation main-navigation container">
             <a class="main-navigation__logo logo" href="index.html">
@@ -41,11 +40,85 @@
         </nav>
 
     </header>
-    
     <main class="page-content page__content">
-        
+        <div class="container">
+            <div class="error">
+                <h1 class="error-title">Oops...<br>404</h1>
+                <a class="link error__discription" href="index.html" data-content="Вернись ты уже домой...">Вернись ты уже домой...<br>*клик*</a>
+            </div>
+        </div>
     </main>
-    
+    <footer class="page-footer page__footer">
+        <section class="contacts">
+
+            <div class="container">
+
+                <address class="contacts__address address-info">
+            <p class="address-info__title">NЁRDS DESIGN STUDIO</p>
+            <a href="#" class="address-info__location link">наб. Реки Карповки,<br> 5 лит П, Санкт-Петербург</a>
+            <a href="tel:+78005558628" class="address__phone link">+7 800 555-86-28</a>
+            <button href="#" class="button contacts__button button--size-l button--primary-tomato">Напишите нам</button>
+
+        </address>
+            </div>
+            <div class="contacts__map">
+                <iframe class="contacts-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1996.8008638480053!2d30.312217316482435!3d59.96862666664076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696315a4bdf3f1b%3A0x1c8b299cbcd21256!2z0L3QsNCxLiDQoNC10LrQuCDQmtCw0YDQv9C-0LLQutC4!5e0!3m2!1sru!2sru!4v1666116185387!5m2!1sru!2sru"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="socials container">
+            <ul class="socials__list social-list clear-list">
+                <li class="social-list__item social-item social-item--vk">
+                    <a href="#" class="social-item__link">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 0H18C19.65 0 21 1.35 21 3V18C21 19.65 19.65 21 18 21H3C1.35 21 0 19.65 0 18V3C0 1.35 1.35 0 3 0ZM14 10.5C14 8.57 12.43 7 10.5 7C8.57 7 7 8.57 7 10.5C7 12.43 8.57 14 10.5 14C12.43 14 14 12.43 14 10.5ZM3 18V9H4.181C4.0626 9.49127 4.00186 9.99467 4 10.5C4 14.0899 6.91015 17 10.5 17C14.0899 17 17 14.0899 17 10.5C16.9986 9.99464 16.9379 9.49118 16.819 9H18V18H3ZM14 7H18V3H14V7Z" fill="white"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list__item social-item--fb">
+                    <a href="#" class="social-item__link">
+                        <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4V0H8C5.79086 0 4 1.79086 4 4V8H0V12H4V22H8V12H12V8H8V4H12Z" fill="white"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list__item social-item--inst">
+                    <a href="#" class="social-item__link">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 0H18C19.65 0 21 1.35 21 3V18C21 19.65 19.65 21 18 21H3C1.35 21 0 19.65 0 18V3C0 1.35 1.35 0 3 0ZM14 10.5C14 8.57 12.43 7 10.5 7C8.57 7 7 8.57 7 10.5C7 12.43 8.57 14 10.5 14C12.43 14 14 12.43 14 10.5ZM3 18V9H4.181C4.0626 9.49127 4.00186 9.99467 4 10.5C4 14.0899 6.91015 17 10.5 17C14.0899 17 17 14.0899 17 10.5C16.9986 9.99464 16.9379 9.49118 16.819 9H18V18H3ZM14 7H18V3H14V7Z" fill="white"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <div class="social__promo promo">
+                <p class="promo__title">Давайте дружить, это выгодно!</p>
+                <p class="promo__description">Скидка 10% для друзей из социальных сетей.</p>
+            </div>
+        </section>
+
+    </footer>
+    <section class="modal">
+        <h2 class="modal__title">Напишите нам</h2>
+        <button class="modal__button button--close" tabindex="5"></button>
+        <form method="post" action="https://echo.htmlacademy.ru" class="modal__feedback feedback">
+            <div class="feedback__group">
+                <label for="user-name-field">Ваше имя:</label>
+                <input type="text" name="user-name" id="user-name-field" placeholder="Имя Фамилия" autofocus tabindex="1" minlength="2">
+            </div>
+            <div class="feedback__group">
+                <label for="user-email-field">Ваш email:</label>
+                <input type="text" name="user-email" id="user-email-field" placeholder="email@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" tabindex="2">
+            </div>
+            <div class="feedback__message">
+                <label for="user-message-field">Текст письма:</label>
+                <textarea name="user-message" id="user-message-field" placeholder="В свободной форме" tabindex="3" minlength="2"></textarea>
+            </div>
+            <button type="submit" class="button button--primary-tomato button--size-xl" tabindex="4">Отправить</button>
+
+        </form>
+
+    </section>
+    <script src="js/modal-message.js"></script>
 </body>
 
 </html>
