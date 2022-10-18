@@ -530,6 +530,7 @@
     width: 320px;
     padding: 50px 50px 46px;
     background-color: #fff;
+    font-style: normal;
 }
 
 .address-info__title {
@@ -542,10 +543,12 @@
 }
 
 .address-info__location {
+    color: var(--context-gray);
     margin-bottom: 22px;
 }
 
 .address__phone {
+    color: var(--context-gray);
     margin-bottom: 38px;
 }
 
