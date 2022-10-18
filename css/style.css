@@ -492,6 +492,7 @@
 .contacts {
     position: relative;
     min-height: 416px;
+    padding: 54px 0;
 }
 
 .contacts-iframe {
@@ -503,30 +504,32 @@
     border: none;
 }
 
-.contacts__info {
-    position: relative;
+.contacts__map {
+    position: absolute;
     width: 100%;
-    min-height: 416px;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
-.contacts__address {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    padding: 50px;
-    width: 320px;
-    background-color: var(--basic-white);
+.contacts-info {
+    position: relative;
     z-index: 1;
+    width: 220px;
+    padding: 50px 50px 46px;
+    background-color: #fff;
 }
 
 
 /* addres and map */
 
 .address-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    width: 320px;
+    padding: 50px 50px 46px;
+    background-color: #fff;
 }
 
 .address-info__title {
@@ -1346,5 +1349,3 @@ input[type="checkbox"]:checked+.checkbox__label::after {
         transform: scale(0.97);
     }
 }
-
-
