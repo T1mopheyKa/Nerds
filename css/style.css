@@ -57,9 +57,9 @@
     margin: 0 auto;
     padding: 0;
     width: 1440px;
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    min-height: 100%;
+/*     display: grid; */
+/*     grid-template-rows: auto 1fr auto; */
     box-sizing: border-box;
     font-family: "Roboto";
     font-size: 16px;
